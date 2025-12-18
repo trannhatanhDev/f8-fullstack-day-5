@@ -62,17 +62,11 @@ span {
     width: 100%;
 }
 
-ul.exp-list {
+.exp-list {
     padding-left: 30px;
     text-align: justify;
-    list-style: circle;
     font-weight: 500;
-}
-
-.exp-list li::marker {
-    color: red;
-    font-weight: 700;
-    font-size: 1.2em;
+    list-style: circle;
 }
 
 /* Footer */
