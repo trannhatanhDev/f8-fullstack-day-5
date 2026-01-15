@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="" class="form" autocomplete="off">
+            <h1 class="form-heading">Register Form</h1>
+            <div class="form-group">
+                <label for="display-name" class="form-label">Display Name</label>
+                <input class="form-input" type="text" name="" id="display-name" />
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-input" type="email" name="" id="email" />
+            </div>
+            <div class="form-group">
+                <label for="phone-number" class="form-label">Phone Number</label>
+                <input class="form-input" type="phone" name="" id="phone-number" />
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-input" type="password" name="" id="password" />
+            </div>
+            <div class="form-group">
+                <label for="retype-password" class="form-label">Retype Password</label>
+                <input class="form-input" type="password" name="" id="retype-password" />
+            </div>
+            <div class="form-group">
+                <label class="form-label">Gender</label>
+                <label class="gender"><input type="radio" name="gender" id="male" />Male</label>
+                <label class="gender"><input type="radio" name="gender" id="female" />Female</label>
+                <label class="gender"><input type="radio" name="gender" id="other" />Other</label>
+            </div>
+            <div class="form-group">
+                <label for="date-of-birth" class="form-label">Date of Birth</label>
+                <input class="form-input" type="date" name="" id="date-of-birth" />
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Address</label>
+                <input class="form-input" type="text" name="" id="address" />
+            </div>
+            <div class="form-group">
+                <label for="avatar" class="form-label">Avatar</label>
+                <label for="avatar">
+                    <img
+                        width="200px"
+                        src="./img/avatar-1577909_1280.webp"
+                        alt=""
+                        class="avatar-img"
+                    />
+                </label>
+                <input type="file" name="" id="avatar" hidden />
+            </div>
+            <div class="form-group">
+                <div class="form-advertise">
+                    <label class="form-label">Communication Preferences</label>
+                    <label>
+                        <input type="checkbox" name="gender" />
+                        Subscribe to Newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="gender" />
+                        Received Promotion Email
+                    </label>
+                    <label>
+                        <input type="checkbox" name="gender" />
+                        Get product updates
+                    </label>
+                </div>
+            </div>
+            <div class="form-group footer">
+                <button class="btn submit-btn">Register</button>
+            </div>
+        </form>
+    </body>
+</html>
